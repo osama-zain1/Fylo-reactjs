@@ -5,7 +5,7 @@ const Landing = () => {
         <div className="element-center flex-col pt-[200px]">
           <div className="w-[750px] max-w-full">
             <img
-              src="/src/assets/images/illustration-intro.png"
+              src="./images//illustration-intro.png"
               alt="landing-img"
               className="w-full h-fit"
             />
@@ -31,7 +31,7 @@ const Landing = () => {
       </div>
       <div className="w-full h-[200px]">
         <img
-          src="/src/assets/images/bg-curvy-desktop.svg"
+          src="./images/bg-curvy-desktop.svg"
           alt="img"
           className="w-full h-full"
         />
