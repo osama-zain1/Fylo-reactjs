@@ -3,13 +3,13 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-} from "../node_modu3les/react-icons/fa";
+} from "../node_modules/react-icons/fa";
 const Footer = () => {
   const [contact, setContact] = useState([
     { icon: "icon-phone.svg", text: "+1-543-123-4567" },
     { icon: "icon-email.svg", text: " example@fylo.com" },
   ]);
-  const [linkss, setLinks] = useState([
+  const [links, setLinks] = useState([
     "About Us",
     "Contact Us",
     "Jobs",
@@ -61,7 +61,7 @@ const Footer = () => {
             ))}
           </div>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
-            {linkss.map((link) => (
+            {links.map((link) => (
               <li key={link}>
                 <a
                   href={`/${link.toLowerCase()}`}
