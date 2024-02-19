@@ -1,9 +1,5 @@
 import { useState } from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-} from "../node_modules/react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   const [contact, setContact] = useState([
     { icon: "icon-phone.svg", text: "+1-543-123-4567" },
